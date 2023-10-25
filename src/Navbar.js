@@ -11,6 +11,9 @@ export default function Navbar() {
         <div
           className="navigation-menu">
           <ul>
+          <li>
+            <Link to = "home">Home</Link>
+            </li>
             <li>
             <Link to ="proyectos">Proyectos</Link>
             </li>
@@ -24,8 +27,9 @@ export default function Navbar() {
         </div>
       </nav>
       <Outlet/>
-      <footer>
-        </footer>
+      <footer/>
+        
+      
     </>
     );
   }
