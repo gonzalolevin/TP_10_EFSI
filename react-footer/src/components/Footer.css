@@ -1,0 +1,54 @@
+/*.Footer {
+position: absolute;
+bottom:0;
+width: 100%;
+height:60%;
+background-color: aliceblue;
+color: white;
+text-align: center;
+  }
+
+*/
+
+.Footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f8f8f8;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .FooterContainer {
+    max-width: 1200px;
+    width: 100%;
+  }
+  
+  .Row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .Column {
+    flex: 1;
+  }
+  
+  .FooterLink {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  .Heading {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+
+  .imagen {
+    width: 100px;
+  }
+
+/*https://postcron.com/es/blog/landings/generador-de-enlaces-para-whatsapp/#page-block-he6t7wyxoh*/
