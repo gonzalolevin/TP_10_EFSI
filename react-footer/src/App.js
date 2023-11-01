@@ -8,7 +8,7 @@ import './App.css';
 import {Routes, Route, BrowserRouter } from 'react-router-dom';
 import Home from './Home';
 import Favoritos from './Favoritos';
-import InfoPersonal from './InfoPersonl';
+import InfoPersonal from './InfoPersonal';
 import Proyectos from './Proyectos';
 import Navbar from './Layout';
 function App() {

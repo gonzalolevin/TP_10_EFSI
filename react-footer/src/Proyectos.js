@@ -1,12 +1,15 @@
 import React from "react";
 
+
 const Proyectos =()=>
 {
+    //let doubled = Creaciones.map((Creacion=>Creacion != null));
+
 
     return(
         <div>
-            <h1>Proyectos</h1>
         </div>
     );
 }
+
 export default Proyectos;

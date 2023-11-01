@@ -1,4 +1,3 @@
-// Filename - components/Footer.js
 import React from "react";
 import {
     Box,
@@ -7,8 +6,9 @@ import {
     Column,
     FooterLink,
     Heading,
-} from "./FooterStyles"; // Make sure to import the necessary components and styles
-
+} from "./FooterStyles";
+import "./Footer.css";
+ 
 const Footer = () => {
     return (
         <Box>
@@ -19,39 +19,36 @@ const Footer = () => {
                     marginTop: "10px",
                 }}
             >
-                A Computer Science Portal for Geeks!
+                Contactame
             </h1>
             <FooterContainer>
                 <Row>
                     <Column>
                         <Heading>Instagram</Heading>
-                        <a href="https://www.instagram.com/"><img className="imagen" src="https://i.pinimg.com/originals/3b/21/c7/3b21c7efd2ba9c119fb8d361acacc31d.png" alt="Instagram Logo"/></a>
+                        <FooterLink>
+                         <a href ="https://www.instagram.com/gonzi_levin/">
+      <img  className="imagen" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Instagram-Icon.png/800px-Instagram-Icon.png"></img></a>                        
+                        </FooterLink>
                     </Column>
                     <Column>
                         <Heading>Linkedin</Heading>
-                        <a href="https://www.linkedin.com/feed/"><img className="imagen" src="https://static.vecteezy.com/system/resources/previews/023/986/926/original/linkedin-logo-linkedin-logo-transparent-linkedin-icon-transparent-free-free-png.png" alt="Instagram Logo"/></a>
+                        <FooterLink>
+                        <a href ="https://www.linkedin.com/in/gonzalo-levin-a663b326b/">
+      <img  className="imagen" src="https://store-images.s-microsoft.com/image/apps.31120.9007199266245564.44dc7699-748d-4c34-ba5e-d04eb48f7960.bc4172bd-63f0-455a-9acd-5457f44e4473"></img></a>    
+                        </FooterLink>
                     </Column>
                     <Column>
-                        <Heading>Youtube</Heading>
-                        <a href="https://www.youtube.com/watch?v=1Mh7fTZKhSs&t=4s"><img className="imagen" src="https://cdn.icon-icons.com/icons2/272/PNG/512/Youtube_30038.png" alt="Instagram Logo"/></a>
+                        <Heading>GitHub</Heading>
+                        <FooterLink>
+                        <a href ="https://github.com/gonzalolevin">
+      <img  className="imagen" src="https://static-00.iconduck.com/assets.00/github-icon-2048x1988-jzvzcf2t.png"></img></a>    
+                        </FooterLink>
                     </Column>
                     <Column>
-                        <Heading>wap</Heading>
+                        <Heading>Whatsapp</Heading>
                         <FooterLink href="#">
-                            <i className="fab fa-facebook-f"></i>
-                            <span>Facebook</span>
-                        </FooterLink>
-                        <FooterLink href="#">
-                            <i className="fab fa-instagram"></i>
-                            <span>Instagram</span>
-                        </FooterLink>
-                        <FooterLink href="#">
-                            <i className="fab fa-twitter"></i>
-                            <span>Twitter</span>
-                        </FooterLink>
-                        <FooterLink href="#">
-                            <i className="fab fa-youtube"></i>
-                            <span>Youtube</span>
+                        <a href ="https://api.whatsapp.com/send/?phone=5491134777861">
+      <img  className="imagen" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/WhatsApp_icon.png/598px-WhatsApp_icon.png"></img></a>    
                         </FooterLink>
                     </Column>
                 </Row>
@@ -59,5 +56,4 @@ const Footer = () => {
         </Box>
     );
 };
-
 export default Footer;
