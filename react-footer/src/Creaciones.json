@@ -1,0 +1,59 @@
+[
+    {
+      "id": 1,
+      "titulo": "CASINORT",
+      "descripcion":"Una aplicación llena de diversión.",
+      "imagen": "https://i0.wp.com/sinmordaza.com/wp-content/uploads/2020/09/SM-casinoonline-280920.jpg?fit=754%2C424&ssl=1",
+      "fecha": "2022-01-15",
+      "url": "https://github.com/uristrauss/TP8-CASINORT"
+    },
+    {
+        "id": 2,
+        "titulo": "TO DO List",
+        "descripcion": "Una aplicación para tu organización",
+        "imagen": "https://www.teamly.com/blog/wp-content/uploads/2021/12/Master-Task-List.png",
+        "fecha": "2023-07-15",
+        "url": "https://github.com/uristrauss/TODOlist"
+      },
+      {
+        "id": 3,
+        "titulo": "TP3_PELICULAS",
+        "descripcion": "Una aplicación para tus peliculas",
+        "imagen": "https://media.noticiaalminuto.com/wp-content/uploads/2023/01/fragmentados.jpg",
+        "fecha": "2023-07-15",
+        "url": "https://github.com/uristrauss/TP3-Peliculas"
+      },
+      {
+        "id": 4,
+        "titulo": "TP6_BANDERAS",
+        "descripcion": "Una aplicación para tus conocimientos geograficos",
+        "imagen": "https://s1.abcstatics.com/media/cultura/2019/09/20/banderas-del-mundo-k0j--1248x698@abc.jpg",
+        "fecha": "2023-08-09",
+        "url": "https://github.com/uristrauss/TP6_Banderas"
+      },
+      {
+        "id": 5,
+        "titulo": "CATALOGO_EFSI",
+        "descripcion": "Una aplicación para tus catalogos comerciales.",
+        "imagen": "https://static.vecteezy.com/system/resources/previews/012/110/207/original/yellow-rubber-duck-isolated-on-white-background-vector.jpg",
+        "fecha": "2023-09-09",
+        "url": "https://github.com/uristrauss/CatalogoEFSI"
+      },
+      {
+        "id": 6,
+        "titulo": "TPCOMIDAS_DAI",
+        "descripcion": "Una aplicación para organizar tu gastronomia.",
+        "imagen": "https://t2.ea.ltmcdn.com/es/posts/5/2/6/el_pato_como_mascota_20625_600.jpg",
+        "fecha": "2023-10-03",
+        "url": "https://github.com/uristrauss/TPComidasDAI"
+      },
+      {
+        "id": 7,
+        "titulo": "DonaVida",
+        "descripcion": "Una aplicación para gestionar y difundir tus donaciones de sangre.",
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlBpB1vSn1x0nkg6YWOnPJlZ9AxHiwMAJcA9drR16W5--CwfOGq5JsJaylEZwlO8jfePw&usqp=CAU",
+        "fecha": "2023-08-09",
+        "url": "https://github.com/uristrauss/DonaVidaNative.git"
+      }
+    
+  ]
