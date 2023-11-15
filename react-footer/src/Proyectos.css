@@ -169,4 +169,30 @@
     top: 5px;
     border-radius: 0px 0px 0px 5px;
    }
-   
+
+   .card {
+    position: relative;
+  }
+  
+  .card-body {
+    position: relative;
+  }
+  
+  .love-heart {
+    position: absolute;
+    top: auto;
+    bottom: 10px; /* Ajusta según sea necesario */
+    right: 10px; /* Ajusta según sea necesario */
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  
+
+
+  .card {
+    position: relative;
+    background-color: s#a89ff7; /* Cambia el color de fondo según tu preferencia */
+    border-radius: 10px; /* Añade esquinas redondeadas para un aspecto más suave */
+    overflow: hidden; /* Asegura que el contenido no sobresalga del contenedor */
+  }
