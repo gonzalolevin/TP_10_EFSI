@@ -3,6 +3,8 @@ import './Home.css'; // Asegúrate de tener el archivo CSS correspondiente
 import './Layout.css'
 import Footer from "./components/Footer";
 import "./components/Footer.css";
+import "./Foto.jpg";
+
 
 const App = () => {
     useEffect(() => {
@@ -12,8 +14,8 @@ const App = () => {
     return (
         <div className="container">
             <header>
-                <img src="tu-imagen.jpg" alt="Tu Nombre" />
-                <h1>Tu Nombre</h1>
+                <img src="Foto.jpg" alt="Tu Nombre" />
+                <h1>Gonzalo Ariel Levin</h1>
                 <p>Desarrollador Web</p>
             </header>
 

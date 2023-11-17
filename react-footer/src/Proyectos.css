@@ -43,7 +43,7 @@
   /* Estilos para la imagen */
   .card-body img {
     max-width: 100%;
-    height: auto;
+    height: 165px;
   }
   
   /* Estilos para el botón de ver proyecto */
@@ -176,6 +176,7 @@
   
   .card-body {
     position: relative;
+    background-color: #c49184;
   }
   
   .love-heart {
@@ -195,4 +196,8 @@
     background-color: s#a89ff7; /* Cambia el color de fondo según tu preferencia */
     border-radius: 10px; /* Añade esquinas redondeadas para un aspecto más suave */
     overflow: hidden; /* Asegura que el contenido no sobresalga del contenedor */
+  }
+
+  body{
+    background-color: #fffaf2;
   }

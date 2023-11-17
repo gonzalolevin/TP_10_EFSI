@@ -3,8 +3,6 @@ import Creaciones from './Creaciones.json'; // Importa el archivo JSON
 import './Proyectos.css'; // Importa el archivo CSS
 import './Home.css'; // Asegúrate de tener el archivo CSS correspondiente
 import './Layout.css'
-import Footer from "./components/Footer";
-import "./components/Footer.css";
 
 
 const Proyectos = () => {
@@ -19,7 +17,7 @@ const Proyectos = () => {
                                 <p className="card-text">{proyecto.descripcion}</p>
                                 <p className="card-text">{proyecto.fecha}</p>
                                 <a href={proyecto.url}></a>
-                                <img src={proyecto.imagen} alt={proyecto.titulo} />
+                                <img src={proyecto.imagen}alt={proyecto.titulo} />
                                 <a href={proyecto.url} className="btn btn-primary">Ver proyecto</a>
                                 
                                 <div className={`love ${proyecto.isSmall ? 'small' : ''}`} onClick={(e) => e.stopPropagation()}>
@@ -36,7 +34,6 @@ const Proyectos = () => {
                     )
                 })
             }
-            <Footer/>
         </div>
     );
 }
