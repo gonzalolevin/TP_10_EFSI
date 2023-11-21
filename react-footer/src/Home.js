@@ -12,9 +12,9 @@ const App = () => {
     }, []);
 
     return (
-        <div className="container">
+        <div className="contenedor">
             <header>
-                <img src={Foto} alt="Tu Nombre" style={{ width: '300px', height: '250px' }} />
+                <img className="img"src={Foto} alt="Tu Nombre" style={{ width: '300px', height: '250px' }} />
                 <h1>Gonzalo Ariel Levin</h1>
                 <p>Desarrollador Web</p>
             </header>
@@ -26,12 +26,11 @@ const App = () => {
 
             <section className="languages">
                 <h2>Lenguajes de Programación</h2>
-                <div className="language">HTML</div>
-                <div className="language">CSS</div>
-                <div className="language">JavaScript</div>
+                <img src="ruta/a/tu/imagen.jpg" alt="Descripción de la imagen"/>
+                <img src="ruta/a/tu/imagen.jpg" alt="Descripción de la imagen"/>
+                <img src="ruta/a/tu/imagen.jpg" alt="Descripción de la imagen"/>
                 {/* Agrega aquí más lenguajes según tus habilidades */}
             </section>
-            <Footer/>
         </div>
     );
 }

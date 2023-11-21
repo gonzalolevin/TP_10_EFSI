@@ -1,7 +1,6 @@
 import React from "react";
 import Creaciones from './Creaciones.json'; // Importa el archivo JSON
 import './Proyectos.css'; // Importa el archivo CSS
-import './Home.css'; // Asegúrate de tener el archivo CSS correspondiente
 import './Layout.css'
 
 

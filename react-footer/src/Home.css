@@ -7,7 +7,7 @@ body {
     background-color: #f4f4f4; /* Cambia el color de fondo según tus preferencias */
 }
 
-.container {
+.contenedor {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
@@ -20,7 +20,7 @@ header {
     margin-bottom: 20px;
 }
 
-img {
+.img {
     border-radius: 50%;
     width: 150px;
     height: 150px;
