@@ -3,7 +3,7 @@ import './Home.css'; // Asegúrate de tener el archivo CSS correspondiente
 import './Layout.css'
 import Footer from "./components/Footer";
 import "./components/Footer.css";
-import "./Foto.jpg";
+import Foto from "./Foto.jpg";
 
 
 const App = () => {
@@ -14,7 +14,7 @@ const App = () => {
     return (
         <div className="container">
             <header>
-                <img src="Foto.jpg" alt="Tu Nombre" />
+                <img src={Foto} alt="Tu Nombre" style={{ width: '300px', height: '250px' }} />
                 <h1>Gonzalo Ariel Levin</h1>
                 <p>Desarrollador Web</p>
             </header>

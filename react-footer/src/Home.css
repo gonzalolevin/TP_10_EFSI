@@ -1,46 +1,66 @@
+/* Home.css */
+
 body {
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    font-family: 'Arial', sans-serif;
-    overflow: hidden; /* Evita el desbordamiento de la pantalla */
+    background-color: #f4f4f4; /* Cambia el color de fondo según tus preferencias */
 }
 
 .container {
-    width: 100%;
-    height: 100vh; /* Toma el 100% de la altura de la ventana */
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff; /* Cambia el color de fondo del contenedor según tus preferencias */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Agrega una sombra sutil */
 }
 
 header {
     text-align: center;
-    padding: 20px;
-    background-color: #333;
-    color: white;
+    margin-bottom: 20px;
 }
 
-header img {
+img {
     border-radius: 50%;
-    max-width: 150px;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border: 5px solid #3498db;
+    cursor: pointer; /* Cambia el cursor al pasar el ratón sobre la imagen */
 }
 
-section {
-    text-align: center;
-    padding: 20px;
+h1 {
+    color: #333;
+    margin-bottom: 5px;
+}
+
+p {
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.about {
+    margin-bottom: 30px;
 }
 
 .languages {
-    display: flex;
-    justify-content: center;
+    text-align: center;
 }
 
 .language {
-    margin: 0 10px;
-    font-size: 1.2em;
-    background-color: #333;
-    padding: 10px;
-    border-radius: 5px;
-    color: white;
+    display: inline-block;
+    margin: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
 }
 
+.language img {
+    width: 50px; /* Ajusta el ancho de las imágenes según tus preferencias */
+    height: auto;
+    border-radius: 5px;
+}
+
+.language:hover {
+    transform: scale(1.1); /* Aumenta ligeramente el tamaño al pasar el ratón sobre la imagen */
+}
