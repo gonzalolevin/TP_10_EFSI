@@ -1,5 +1,5 @@
 import React from "react";
-import Creaciones from './Creaciones.json'; // Importa el archivo JSON
+import Creaciones from './CreacionesProyecto.json'; // Importa el archivo JSON
 import './Proyectos.css'; // Importa el archivo CSS
 import './Layout.css'
 
