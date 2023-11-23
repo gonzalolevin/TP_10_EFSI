@@ -68,6 +68,26 @@
   }
   
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
   .love-heart:before,#switch {
     display: none;
    }
@@ -141,8 +161,8 @@
    }
    
    input:checked + .love-heart, input:checked + .love-heart::after, input:checked + .love-heart .bottom {
-    border-color: hsl(347deg 81% 61%);
-    box-shadow: inset 6px -5px 0px 2px hsl(347deg 99% 72%);
+    border-color: hsl(347, 74%, 29%);
+    box-shadow: inset 6px -5px 0px 2px hsl(347, 80%, 33%);
    }
    
    .love-heart::after, .love-heart .bottom {
@@ -191,13 +211,5 @@
   
 
 
-  .card {
-    position: relative;
-    background-color: s#a89ff7; /* Cambia el color de fondo según tu preferencia */
-    border-radius: 10px; /* Añade esquinas redondeadas para un aspecto más suave */
-    overflow: hidden; /* Asegura que el contenido no sobresalga del contenedor */
-  }
-
-  body{
-    background-color: #fffaf2;
-  }
+ 
+ 

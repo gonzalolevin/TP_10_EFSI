@@ -1,8 +1,7 @@
 import React, { useEffect } from "react";
-import './Home.css'; // Asegúrate de tener el archivo CSS correspondiente
+import './InfoPersonal.css'; // Asegúrate de tener el archivo CSS correspondiente
 import './Layout.css'
 import Footer from "./components/Footer";
-import "./components/Footer.css";
 import Foto from "./Foto.jpg";
 
 

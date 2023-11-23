@@ -1,0 +1,76 @@
+/* Home.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e8ddcb;
+}
+
+.contenedor {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff; /* Cambia el color de fondo del contenedor según tus preferencias */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Agrega una sombra sutil */
+    border-radius: 8px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.img {
+    border-radius: 60%;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border: 5px solid #7c6108;
+    cursor: pointer; /* Cambia el cursor al pasar el ratón sobre la imagen */
+    transition: transform 0.3s ease-in-out;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img:hover {
+    transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el ratón sobre la imagen */
+}
+
+h1 {
+    font-family: 'Georgia', serif; /* Cambia la fuente del encabezado */
+    color: #333;
+    margin-bottom: 10px;
+}
+
+p {
+    font-family: 'Calibri', sans-serif; /* Cambia la fuente del párrafo */
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.about {
+    margin-bottom: 30px;
+}
+
+.languages {
+    text-align: center;
+}
+
+.language {
+    display: inline-block;
+    margin: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.language img {
+    width: 60px; /* Ajusta el ancho de las imágenes según tus preferencias */
+    height: auto;
+    border-radius: 8px;
+}
+
+.language:hover {
+    transform: scale(1.1); /* Aumenta ligeramente el tamaño al pasar el ratón sobre la imagen */
+}
