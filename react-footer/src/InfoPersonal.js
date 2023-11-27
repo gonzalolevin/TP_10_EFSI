@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import './InfoPersonal.css'; // Asegúrate de tener el archivo CSS correspondiente
 import './Layout.css'
-import Footer from "./components/Footer";
 import Foto from "./Foto.jpg";
 
 
@@ -25,7 +24,6 @@ const InfoPersonal = () => {
                     <img src="https://cdn-icons-png.flaticon.com/512/919/919826.png" alt="CSS" style={{ width: '70px', height: '70px', borderRadius: '50%', margin: '0 10px' }} />
                     <img src="https://static-00.iconduck.com/assets.00/c-sharp-c-icon-1822x2048-wuf3ijab.png" alt="C#" style={{ width: '70px', height: '70px', borderRadius: '70px%', margin: '0 10px' }} />
                     <img src="https://bognarjunior.files.wordpress.com/2018/03/if_react-js_logo_1174949.png?w=144" alt="REACT" style={{ width: '70px', height: '70px', borderRadius: '70px%', margin: '0 10px' }} />
-                {/* Agrega aquí más lenguajes según tus habilidades */}
             </section>
         </div>
     );

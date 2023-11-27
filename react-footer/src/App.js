@@ -11,10 +11,12 @@ import Favoritos from './Favoritos';
 import InfoPersonal from './InfoPersonal';
 import Proyectos from './Proyectos';
 import Navbar from './Layout';
+import { FavoritoProvider } from "./FavoritosContext";
 function App() {
     return (
            
   <BrowserRouter>
+  <FavoritoProvider>
     <Routes>
       <Route path ="/" element ={<Navbar/>}>
         <Route path="home" element ={<Home/>}/>
@@ -23,6 +25,7 @@ function App() {
         <Route path = "proyectos" element = {<Proyectos/>}/>
       </Route>
     </Routes>
+    </FavoritoProvider>
   </BrowserRouter>
 
     );
